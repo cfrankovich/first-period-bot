@@ -32,9 +32,18 @@ function search(message, str, il)
 
 		for (var i = 0; i < newlines.length; ++i)
 		{
+			if (i > 100)
+			{
+				message.channel.send("Limit reached.");
+				return;
+			}
 			embed.addField(`Result #${i+1}`, newlines[i], il);
 		}
-		message.channel.send({ embeds: [embed] });
+		try {
+			message.channel.send({ embeds: [embed] });
+		} catch (error) {
+			return;
+		}
 		return;
 	});
 }
