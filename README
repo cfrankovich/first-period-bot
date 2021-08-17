@@ -9,12 +9,12 @@ the discord server at:
 To use the bot head over to the new bot commands channel
 and type:
 
-    ;find <last name>
+    <find [last or first name]
 
 This command returns a list of people with that last name
 along with their room numbers. After you know your room
 number type:
 
-    ;room <room num>
+    <room [room num]
 
 This should return everyone in your first period.
