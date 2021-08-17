@@ -1,0 +1,20 @@
+First Period Bot
+================
+
+This bot finds your classmates in first period. Visit
+the discord server at:
+
+    https://discord.gg/sFYhF4qE8x
+
+To use the bot head over to the new bot commands channel
+and type:
+
+    ;find <last name>
+
+This command returns a list of people with that last name
+along with their room numbers. After you know your room
+number type:
+
+    ;room <room num>
+
+This should return everyone in your first period.

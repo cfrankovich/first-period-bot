@@ -1,0 +1,22 @@
+{
+  "name": "first-period-bot",
+  "version": "1.0.0",
+  "description": "Bot that finds your classmates in first period.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfrankovich/first-period-bot.git"
+  },
+  "author": "cfrankovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfrankovich/first-period-bot/issues"
+  },
+  "homepage": "https://github.com/cfrankovich/first-period-bot#readme",
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  }
+}
